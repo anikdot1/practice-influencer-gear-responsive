@@ -127,7 +127,7 @@ hr {
 .popular-collection-section {
     max-width: 1440px;
     margin: 100px 195px;
-   
+
 }
 
 .section-title {
@@ -200,29 +200,52 @@ hr {
     padding-left: 14px;
     padding-bottom: 18px;
 }
-.see-more{
+
+.see-more {
     text-align: right;
     grid-area: 4 / 3;
 }
+
 .see-more a {
     font-weight: 700;
     font-size: 16px;
     color: #e02c6dde;
 }
+
 .feature-product-section {
     max-width: 1440px;
     margin: 100px auto 0;
     padding: 0 165px;
     display: flex;
     flex-direction: row-reverse;
+    gap: 96px;
+    align-items: center;
+    justify-content: center;
+}
+.feature-product-container {
+    max-width: 610px;
+    margin: 0;
 }
 .feature-product-title {
-
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    padding-bottom: 28px;
 }
 .feature-product-description {
-
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    padding-bottom: 22px;
+    padding-right: 110px;
 }
-.feature-product-img {
-    max-width: 404px;
-    padding-right: 96px;
+.join-btn {
+    background: #E02C6D;
+    border: none;
+    padding: 16px 24px;
+}
+.join-btn a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
 }
