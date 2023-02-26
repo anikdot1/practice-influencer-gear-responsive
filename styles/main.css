@@ -212,6 +212,9 @@ hr {
     color: #e02c6dde;
 }
 
+/* -------------------------
+Feature product section
+---------------------------- */
 .feature-product-section {
     max-width: 1440px;
     margin: 100px auto 0;
@@ -222,16 +225,19 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
 .feature-product-container {
     max-width: 610px;
     margin: 0;
 }
+
 .feature-product-title {
     font-weight: 700;
     font-size: 38px;
     color: #0A0826;
     padding-bottom: 28px;
 }
+
 .feature-product-description {
     font-weight: 700;
     font-size: 16px;
@@ -239,13 +245,54 @@ hr {
     padding-bottom: 22px;
     padding-right: 110px;
 }
+
 .join-btn {
     background: #E02C6D;
     border: none;
     padding: 16px 24px;
 }
+
 .join-btn a {
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+/* ----------------------
+    Footer Section
+------------------------ */
+.footer {
+    max-width: 1440px;
+    margin: 100px auto 0;
+    background-color: #000000;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-top: 56px;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+.footer-description {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    text-align: center;
+}
+.footer-social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.social-icon {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 58px;
 }
