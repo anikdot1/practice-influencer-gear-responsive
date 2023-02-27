@@ -16,35 +16,37 @@
     }
 
     .menu i {
-        font-size: 18px;
+        font-size: 6vw;
     }
 
     .logo h2 {
         font-weight: 600;
-        font-size: 16px;
+        font-size: 5.5vw;
     }
 
     .cart i {
-        font-size: 20px;
+        font-size: 6vw;
     }
 
     /* Banner section for sm devices */
     .banner {
         max-width: 688px;
-        margin: 28px auto 0;
+        margin: 8vW auto 0;
         padding: 0;
         flex-direction: column-reverse;
         justify-content: center;
     }
-
-    .banner-img>img {
+    .banner-img, .banner-img>img {
         max-width: 100%;
-        width: 80vw;
-        margin: 18px auto 0;
+        height: 100%;
+        padding: 0;
     }
-
+    .banner-img>img {
+        padding: 4vw;
+    }
     .banner-container {
         max-width: 688px;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -53,6 +55,7 @@
     .banner-title {
         font-size: 7.2vw;
         text-align: center;
+        padding-top: 7vw;
     }  
     .banner-description {
         font-size: 3.8vw;

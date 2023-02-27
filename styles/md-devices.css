@@ -31,20 +31,25 @@
     /* Banner section for sm devices */
     .banner {
         max-width: 992px;
-        margin: 12vw auto 0;
+        width: 100%;
+        height: auto;
+        margin: 8vw auto 0;
         padding: 0;
         flex-direction: column-reverse;
         justify-content: center;
     }
-
-    .banner-img>img {
+    .banner-img, .banner-img>img {
         max-width: 100%;
-        width: 80vw;
-        margin: 18px auto 0;
+        height: 100%;
+        padding: 0;
     }
-
+    .banner-img>img {
+        padding: 2.5vw;
+    }
     .banner-container {
         max-width: 992px;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -53,6 +58,7 @@
     .banner-title {
         font-size: 7.2vw;
         text-align: center;
+        padding-top: 50px;
     }  
     .banner-description {
         font-size: 3.8vw;
