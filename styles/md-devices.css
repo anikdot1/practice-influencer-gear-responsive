@@ -99,6 +99,8 @@
  ----------------------------*/
     .popular-collection-section {
         max-width: 992px;
+        width: 100%;
+        height: auto;
         margin: 100px auto 0;
     }
     .section-title {

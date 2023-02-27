@@ -12,7 +12,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: 35px;
+        margin: 35px auto 0;
     }
 
     .menu i {
@@ -36,12 +36,16 @@
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .banner-img, .banner-img>img {
-        max-width: 100%;
+    .banner-img {
+        max-width: 90%;
         height: 100%;
+        margin: 0;
         padding: 0;
     }
     .banner-img>img {
+        max-width: 90%;
+        height: 100%;
+        margin: 0;
         padding: 4vw;
     }
     .banner-container {
@@ -94,6 +98,8 @@
  ----------------------------*/
     .popular-collection-section {
         max-width: 688px;
+        width: 100%;
+        height: auto;
         margin: 80px auto 0;
     }
     .section-title {
@@ -102,6 +108,8 @@
     }
     .collection-container {
         max-width: 688px;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
         grid-template-columns: 1fr;
         justify-items: center;
