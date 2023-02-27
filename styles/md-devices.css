@@ -1,0 +1,185 @@
+/* --------------------------------------
+        media query for md devices 
+----------------------------------------*/
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+    /* navbar alternative active */
+    .navbar {
+        display: none;
+    }
+
+    .navbar-alternate {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .menu i {
+        font-size: 6vw;
+    }
+
+    .logo h2 {
+        font-weight: 600;
+        font-size: 5.5vw;
+    }
+
+    .cart i {
+        font-size: 6vw;
+    }
+
+    /* Banner section for sm devices */
+    .banner {
+        max-width: 992px;
+        margin: 12vw auto 0;
+        padding: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .banner-img>img {
+        max-width: 100%;
+        width: 80vw;
+        margin: 18px auto 0;
+    }
+
+    .banner-container {
+        max-width: 992px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-title {
+        font-size: 7.2vw;
+        text-align: center;
+    }  
+    .banner-description {
+        font-size: 3.8vw;
+        text-align: center;
+        padding: 5.5vw;
+     }
+     .banner-btn{
+        max-width: 54vw;
+        margin: 0 auto;
+     }
+     .banner-btn a {
+        justify-content: center;
+        font-size: 4.44vw;
+     }
+     /* Client logo section */
+     .client-logo-section {
+        max-width: 992px;
+        margin: 120px auto 0;
+        padding: 0 20px;
+    }
+    hr {
+        display: none;
+    }
+    .client-logo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7vw;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .client-logo>img {
+        height: 4.5vw;
+        max-height: 100%;
+    }
+/* ----------------------------
+ Popular Collection Section 
+ ----------------------------*/
+    .popular-collection-section {
+        max-width: 992px;
+        margin: 100px auto 0;
+    }
+    .section-title {
+        font-size: 6vw;
+        padding-bottom: 50px;
+    }
+    .collection-container {
+        max-width: 992px;
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .collection-box {
+        max-width: 992px;
+    }
+    .info {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .see-more {
+        grid-column-end: span 1;
+    }
+    .see-more a {
+        font-weight: 800;
+        font-size: 36px;
+    } 
+    
+/* -------------------------
+Feature product section
+---------------------------- */
+    .feature-product-section {
+        max-width: 992px;
+        margin: 100px auto 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .feature-product-container {
+        max-width: 992px;
+        margin: 0;
+    }
+    .feature-product-title {
+        font-size: 6vw;
+        padding: 4vw;
+        padding-bottom: 0;
+    }
+    .feature-product-description {
+        max-width: 992px;
+        font-size: 3vw;
+        padding: 6vw;
+    }
+    .join-btn {
+        margin-bottom: 30px;
+    }
+    .join-btn a {
+        font-size: 3.5vw;
+    }
+  
+/* ----------------------
+    Footer Section
+------------------------ */
+    .footer {
+        max-width: 992px;
+        margin: 60px auto 0;
+    }
+    .footer-title {
+        font-weight: 700;
+        font-size: 4.5vw;
+        padding-top: 56px;
+        padding-bottom: 12px;
+    }
+    
+    .footer-description {
+        font-weight: 600;
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+    .footer-social {
+        gap: 5vw;
+    }
+    .social-icon {
+        font-size: 5vw;
+        padding-top: 25px;
+        padding-bottom: 58px;
+    }
+
+}

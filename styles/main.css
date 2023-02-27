@@ -131,7 +131,9 @@ hr {
 
 .popular-collection-section {
     max-width: 1440px;
-    margin: 100px 195px;
+    width: 100%;
+    height: auto;
+    margin: 100px auto 0;
 }
 
 .section-title {
@@ -144,9 +146,11 @@ hr {
 
 .collection-container {
     max-width: 1050px;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 30px;
 }
 
@@ -191,7 +195,7 @@ hr {
     font-weight: 700;
     font-size: 14px;
     padding-left: 14px;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
 }
 
 .info {
@@ -221,18 +225,13 @@ Feature product section
 ---------------------------- */
 .feature-product-section {
     max-width: 1440px;
+    width: 100%;
     margin: 100px auto 0;
-    padding: 0 165px;
     display: flex;
     flex-direction: row-reverse;
-    gap: 96px;
     align-items: center;
     justify-content: center;
-}
-
-.feature-product-container {
-    max-width: 610px;
-    margin: 0;
+    gap: 96px;
 }
 
 .feature-product-title {
@@ -243,6 +242,8 @@ Feature product section
 }
 
 .feature-product-description {
+    max-width: 500px;
+    margin: 0;
     font-weight: 700;
     font-size: 16px;
     color: #6C6C6C;
@@ -262,11 +263,19 @@ Feature product section
     color: #FFFFFF;
 }
 
+.feature-img {
+    width: 100%;
+    max-width: 404px;
+    margin: 0 auto;
+}
+
 /* ----------------------
     Footer Section
 ------------------------ */
 .footer {
     max-width: 1440px;
+    width: 100%;
+    height: auto;
     margin: 100px auto 0;
     background-color: #000000;
 }
