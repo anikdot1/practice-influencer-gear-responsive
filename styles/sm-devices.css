@@ -56,7 +56,7 @@
     .banner-description {
         font-size: 3.8vw;
         text-align: center;
-        padding: 18px;
+        padding: 5.5vw;
      }
      .banner-btn{
         max-width: 54vw;
@@ -66,6 +66,53 @@
         justify-content: center;
         font-size: 4.44vw;
      }
+     /* Client logo section */
+     .client-logo-section {
+        max-width: 688px;
+        margin: 70px auto 0;
+        padding: 0;
+    }
+    hr {
+        display: none;
+    }
+    .client-logo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6.5vw;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .client-logo>img {
+        max-height: 5.7vw;
+    }
+/* ----------------------------
+ Popular Collection Section 
+ ----------------------------*/
+    .popular-collection-section {
+        max-width: 688px;
+        margin: 80px auto 0;
+    }
+    .section-title {
+        font-size: 7vw;
+        padding-bottom: 20px;
+    }
+    .collection-container {
+        max-width: 688px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        column-gap: 0;
+    }
+    .collection-box {
+        max-width: 688px;
+    }
+    .see-more {
+        grid-column-end: span 1;
+    }
+
+
+
 
 }
 

@@ -132,7 +132,6 @@ hr {
 .popular-collection-section {
     max-width: 1440px;
     margin: 100px 195px;
-
 }
 
 .section-title {
@@ -208,7 +207,7 @@ hr {
 
 .see-more {
     text-align: right;
-    grid-area: 4 / 3;
+    grid-column-end: span 3;
 }
 
 .see-more a {
